@@ -83,6 +83,16 @@ vi README.md
 git add README.md
 git commit
 ```
+### Lo que veo luego de: git branch -a
+* charlas
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/charlas
+  remotes/origin/ejercicios
+  remotes/origin/master
+
+
+
 
 ahora vamos a master (que no tiene estos cambios, porque es otra branch!)
 
