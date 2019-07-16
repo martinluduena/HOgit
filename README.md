@@ -1,10 +1,3 @@
-### Comentarios agregados por Martin 
-hice un Fork desde el repositorio del Profe
-Luego git clone github/martinluduena/HOgit
-
-
-
-
 # HOgit
 Repositorio con ejercicios para practicar comandos básicos de git
 
@@ -139,6 +132,39 @@ si quieren ver cómo quedó la historia del repo:
 git log --oneline --graph
 ```
 
+## Lo que veo luego de: git log --oneline --graph
+*   fba3382 Merge branch 'charlas'
+|\  
+| * 960e93a Agregue un par de lineas màs al README.md
+| * 2cce7fa Modifique el archivo README.md agregando algunas lineas con comentraios mostrando lo que iba viendo al ejecutar cada uno de los comandos de git.
+* | 8df429f Hice un commit del README.
+* |   c5a100f Merge branch 'ejercicios' las modificaciones del archivo ejercicios.md echas en la rama ejercicios las voy a pasar a la rama master
+|\ \  
+| |/  
+|/|   
+| * e6f810e Modifique el archivo ejercicios.md dando mi opinion sobre los ejercicios
+|/  
+* 7868d36 Es el primer commit del archivo README. Agrege unas lineas al comienzo del archivo
+* 373ee43 Cambiado protocolo por defecto a https
+* ed74bb6 Agregados comandos
+*   5339e09 Merge branch 'charlas'
+|\  
+| * 5ffe580 Más cosas de git!
+* |   ab6622e Merge branch 'ejercicios'
+|\ \  
+| |/  
+|/|   
+| * c0e2aa2 Agregamos un nuevo archivo
+|/  
+* 0896d0e Info de qué hacer
+* de70e76 Initial commit
+
+
+
+
+
+
+
 finalmente, hacemos un push de todas las branches:
 
 ```
@@ -150,6 +176,14 @@ git push -u origin charlas
 y listo! en nuestra cuenta de github ya tiene que estar subido. pueden ver el network de github que les va a mostrar la historia
 
 Luego también editamos este readme para agregar los comandos con los que hicimos el repositorio
+
+### Comentarios agregados por Martin 
+hice un Fork desde el repositorio del Profe
+Luego : 
+```
+  git clone github/martinluduena/HOgit
+
+```
 
 
 ```
