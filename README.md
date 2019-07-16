@@ -1,3 +1,4 @@
+### Comentarios agregados por Martin 
 hice un Fork desde el repositorio del Profe
 Luego git clone github/martinluduena/HOgit
 
@@ -46,14 +47,35 @@ Ya hay un nuevo snapshot. Ahora creamos una branch
 ```
 git branch charlas
 ```
+### Lo que veo luego de: git branch -a
+  charlas
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/charlas
+  remotes/origin/ejercicios
+  remotes/origin/master
+
+
 
 y nos movemos a ella
 
 ```
 git checkout charlas
 ```
+### Lo que veo luego de: git status
+En la rama charlas
+Cambios no preparados para el commit:
+  (use «git add <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
 
-en esta branch, editamos README.md de nuevp
+	modificado:    README.md
+
+no hay cambios agregados al commit (use «git add» o «git commit -a»)
+
+en esta branch, editamos README.md de nuevo
+
+
+### Agregue esta linea 
 
 ```
 vi README.md
@@ -61,6 +83,16 @@ vi README.md
 git add README.md
 git commit
 ```
+### Lo que veo luego de: git branch -a
+* charlas
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/charlas
+  remotes/origin/ejercicios
+  remotes/origin/master
+
+
+
 
 ahora vamos a master (que no tiene estos cambios, porque es otra branch!)
 
