@@ -67,6 +67,12 @@ ahora vamos a master (que no tiene estos cambios, porque es otra branch!)
 ```
 git checkout master
 ```
+### git checkout master
+Switched to branch 'master'
+Su rama está delante de «origin/master» para 1 commit.
+  (use "git push" to publish your local commits)
+
+
 
 y a partir de master creamos una nueva branch
 
