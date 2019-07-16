@@ -1,3 +1,9 @@
+hice un Fork desde el repositorio del Profe
+Luego git clone github/martinluduena/HOgit
+
+
+
+
 # HOgit
 Repositorio con ejercicios para practicar comandos básicos de git
 
